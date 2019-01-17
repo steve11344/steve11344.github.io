@@ -29,6 +29,8 @@ permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
+disqus: steve11344
+
 sass:
     sass_dir: _sass
     style: compressed
