@@ -29,7 +29,7 @@ permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
-disqus: steve11344
+disqus_shortname: steve11344
 
 sass:
     sass_dir: _sass
