@@ -2,7 +2,7 @@
 title:  "스프링 부트에 sitemesh 3 적용하기"
 date:   2019-01-21 21:58:00
 categories: [Develop]
-tags: [Spring | sitemesh]
+tags: [Spring, sitemesh]
 ---
 
 스프링 부트(프로젝트 생성시, spring starter project)에서 sitemesh를 적용하는 방법은 다른 사람들이 올려놓은 적용방법과 많이 달랐다.
