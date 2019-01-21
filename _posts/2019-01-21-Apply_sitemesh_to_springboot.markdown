@@ -8,7 +8,9 @@ tags: [Spring | sitemesh]
 스프링 부트(프로젝트 생성시, spring starter project)에서 sitemesh를 적용하는 방법은 다른 사람들이 올려놓은 적용방법과 많이 달랐다.
 여기저기 찾으면서 내가 필요한 정보가 조금씩 부족했고, 시행착오를 토대로 적용법을 작성해보았다.
 
-## 1. SiteMesh 설치 : http://wiki.sitemesh.org/wiki/display/sitemesh3/Getting+Started+with+SiteMesh+3
+## 1. SiteMesh 설치 
+
+http://wiki.sitemesh.org/wiki/display/sitemesh3/Getting+Started+with+SiteMesh+3
 
 위 주소에서 sitemesh3을 다운받는다.
 압축 파일을 풀고, WEB-INF/lib에 이 폴더를 저장한다.
@@ -19,9 +21,9 @@ WEB-INF/lib폴더가 없으면 새로 만든다.
 
 ```ruby
 <dependency>
-			<groupId> org.sitemesh</groupId>
-			<artifactId> sitemesh </artifactId>
-			<version> 3.0.0</version> 
+	<groupId> org.sitemesh</groupId>
+	<artifactId> sitemesh </artifactId>
+	<version> 3.0.0</version> 
 </dependency>
 ```
 
