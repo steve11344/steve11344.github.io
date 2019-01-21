@@ -63,8 +63,6 @@ public class ServletFilterConfig {
 
 
 ```ruby
-package com.nhnent.wind.web.bom.deco;
-
 import org.sitemesh.builder.SiteMeshFilterBuilder;
 import org.sitemesh.config.ConfigurableSiteMeshFilter;
 
@@ -93,16 +91,16 @@ decorator 즉, layout으로 설정할 파일을 추가한다.
 
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="EUC-KR">
-<title><sitemesh:write property='title' /></title>
-<sitemesh:write property='head' />
-</head>
-<body>
+  <head>
+    <meta charset="EUC-KR">
+    <title><sitemesh:write property='title' /></title>
+    <sitemesh:write property='head' />
+  </head>
+  <body>
 
-	<sitemesh:write property='body' />
+    <sitemesh:write property='body' />
 
-</body>
+  </body>
 </html>
 
 ```
