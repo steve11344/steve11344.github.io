@@ -36,6 +36,8 @@ WEB-INF/lib폴더가 없으면 새로 만든다.
 ServletFilterConfig.java와 SitemeshFilter.java 클래스 파일을 추가했다.
 
 1. ServletFilterConfig.java
+
+
 ```ruby
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -53,9 +55,13 @@ public class ServletFilterConfig {
 	}	
 }
 ```
+
+
 -> filter.setFilter(new SitemeshFilter())에서 SitemeshFilter는 아래 클래스 파일에서 정의한 클래스 이름으로 사용한다. 
 
 2. SitemeshFilter.java
+
+
 ```ruby
 package com.nhnent.wind.web.bom.deco;
 
@@ -71,12 +77,15 @@ public class SitemeshFilter extends ConfigurableSiteMeshFilter{
 }
 
 ```
+
+
 -> builder.addDecoratorPath에서 첫번째 인수는 decorator을 적용할 경로이고, 두번째 인자는 가져다 쓸 decorator(layout)파일의 경로를 쓰면 된다.
 
 ## 4.decorator파일 생성
 
 decorator 즉, layout으로 설정할 파일을 추가한다.
 경로는 src/main/webapp/WEB-INF/...경로에 알맞게 파일을 추가한다. 나는 layout.jsp로 추가했다.
+
 
 ```ruby
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
