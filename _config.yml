@@ -1,8 +1,6 @@
 # Site settings
 title: HeeSung Blog
-description: |
-          Jo Hee Sung
-          NHN Entertainment
+description: Jo Hee Sung | NHN Entertainment
 url: 'http://steve11344.github.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
