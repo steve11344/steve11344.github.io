@@ -5,11 +5,11 @@ categories: [Develop]
 tags: [Spring, filter, interceptor]
 ---
 
-# Spring Filter와 Interceptor의 차이
+## Spring Filter와 Interceptor의 차이
 
 Spring **Filter**와 **Interceptor**을 보면 이 둘의 기능은 크게 차이가 없어 보인다. 하지만, 이 둘은 분명히 다른 것이고 더 알아보고 싶어 이 글을 통해 정리하게 되었다. 
 
-## Filter와 Interceptor란?
+### Filter와 Interceptor란?
 ![spring MVC request life cycle](/images/spring_mvc_request_life_cycle.png)
 
 ### Filter
